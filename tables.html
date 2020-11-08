@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+    name: Janry Basa
+    pawprint: jcbrzf
+    date: 2/2/18
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge 3</title>
+        <style>
+            h1 {
+                text-align: center; 
+         		font-family: "comic sans ms";
+                
+                -webkit-column-span:all;
+         		column-span:all;
+            }
+            h2  {
+                text-align: center; 
+         		font-family: "comic sans ms";
+                
+                -webkit-column-span:all;
+                column-span:all;
+            }
+            .column1 {
+                background-color: papayawhip;
+                float:left;
+                border: 10px outset whitesmoke;
+                border-radius: 50px;
+                padding: 20px;
+                width: 225px;
+                text-align: justify;
+                margin: 20px;
+            }
+            .column2 {
+                background-color: cornflowerblue;
+                float:left;
+                border: 10px outset whitesmoke;
+                border-radius: 50px;
+                padding: 20px;
+                width: 378px;
+                text-align: justify;
+                margin: 20px;
+            }
+            .column3 {
+                background-color: firebrick;
+                float:left;
+                border: 10px outset whitesmoke;
+                border-radius: 50px;
+                padding: 20px;
+                width:185px;
+                text-align: justify;
+                margin: 20px;
+            }
+            
+             #columnsWrapper {
+                border: 10px outset whitesmoke; 
+                border-radius: 100px; 
+                padding: 10px;
+                width: 1088px;
+                margin: 20px auto;
+            }
+            .clear:after {
+                content: ""; 
+                display: table; 
+                clear: both; 
+            }
+        </style>
+    </head>
+    <body>  
+        <div id="columnsWrapper" class="clear">
+            <h1>CS2830 - Challenge 3</h1>
+            <div class="column1">
+                <p>Suspendisse sed est sed libero pulvinar sagittis. Ut interdum lorem est, a varius metus luctus non. Nulla lobortis lobortis sapien quis maximus. Sed eget luctus ante, sit amet pharetra odio. Nulla nisi odio, convallis in rutrum ut, gravida nec mauris. Maecenas vulputate libero vitae ligula ultricies, vitae congue ipsum scelerisque. Praesent pulvinar, tortor sollicitudin ultricies gravida, urna lacus feugiat arcu, et consequat odio felis ut nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In vel magna nunc. Praesent nec nunc sit amet urna molestie aliquam. Praesent ut ultricies sapien, in faucibus orci. Donec mattis semper nulla, ut aliquet ante fringilla a. Nunc in pharetra est, a iaculis velit. Maecenas est velit, imperdiet at varius at, lacinia quis odio.</p>
+                <p>Sed porta diam euismod ex cursus, eget efficitur nulla rutrum. Nunc accumsan eleifend lacus ut egestas. Sed sollicitudin quam elit, in maximus odio consectetur eu. Cras sit amet est molestie, condimentum arcu sed, faucibus erat. Vivamus tincidunt felis non massa dignissim, non tristique nisl euismod. Sed est nunc, blandit quis est sed, vehicula rutrum ligula. Morbi sodales fermentum pulvinar. Sed feugiat erat nec ornare gravida. Suspendisse vestibulum laoreet quam, a sollicitudin nunc lacinia sed. Phasellus facilisis nibh neque, vitae dictum nisi venenatis nec. Nullam dictum diam at ante sagittis, a porttitor ex mollis. Sed sodales quam et orci ullamcorper rhoncus. Duis pharetra ex eget tincidunt luctus. Fusce commodo nisi quis mattis volutpat. Sed id suscipit turpis. In sed velit ullamcorper, vestibulum magna vitae, malesuada nisl.</p>
+            </div>
+            <div class="column2">
+                <p>Left Column Physical Width:</p>
+                <p>20px -> border</p>
+                <p>40px -> padding</p>
+                <p>225px -> content width</p>
+                <p>40px -> margin</p>
+                <p>----------------------</p>
+                <p>325px</p>
+                <p>Middle Column Physical Width:</p>
+                <p>20px -> border</p>
+                <p>40px -> padding</p>
+                <p>378px -> content width</p>
+                <p>40px -> margin</p>
+                <p>----------------------</p>
+                <p>478px</p>
+                <p>Right Column Physical Width:</p>
+                <p>1088 -> Wrapper content width</p>
+                <p>325px -> Left physical width</p>
+                <p>-442px -> Middle physical width</p>
+                <p>----------------------</p>
+                <p>285px</p>
+                <p>Right Column Content Width:</p>
+                <p>285 -> Physical width</p>
+                <p>20px -> border</p>
+                <p>40px -> padding</p>
+                <p>40px -> margin</p>
+                <p>----------------------</p>
+                <p>185px</p>
+            </div>
+            <div class="column3">
+                <p>Curabitur mollis ligula a tortor fermentum feugiat. Proin porta tortor sed eros egestas aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce auctor urna non placerat finibus. Integer aliquam massa nunc, dictum sodales tortor molestie sed. In pulvinar augue nec arcu condimentum, eu rutrum tellus hendrerit. Nunc ornare semper convallis. Mauris vehicula sit amet mauris vitae cursus. Etiam sed orci ac neque pretium dictum.</p>
+                <p>Nullam placerat bibendum vehicula. Etiam vitae eros commodo, hendrerit nisl eu, molestie sem. Pellentesque at lacus ultrices lectus interdum venenatis et at ex. Aliquam massa eros, faucibus ut posuere a, elementum ut libero. Nulla in mollis felis. Nullam sed libero et lorem sollicitudin hendrerit eu ac nisi. Nunc eleifend volutpat lorem. Integer urna tortor, vulputate eget auctor quis, placerat sed leo. Pellentesque malesuada tincidunt suscipit. Praesent faucibus nibh at nisl sodales, tempus faucibus orci pellentesque.</p>
+            </div>
+        </div>
+        <div><h2>Created by: Janry Basa</h2></div>
+    </body>
+</html>
